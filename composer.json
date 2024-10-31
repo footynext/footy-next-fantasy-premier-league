@@ -20,7 +20,7 @@
     "autoload": {
         "psr-4": { 
             "FootyNext\\Fpl\\App\\": "",
-            "FootyNext\\Fpl\\Utils": "utils"
+            "FootyNext\\Fpl\\Utils\\": "utils"
         
         }
     },
