@@ -61,15 +61,15 @@ class FantasyPremierLeagueGet
     /**
      * Retrieve GW-by-GW data for a specific entry/team
      * @param $entryId
-     * @param $numGWs
+     * @param $numberOfGw
      * @param $startGW
      * @return array
      */
-    public function getEntryGWsData($entryId, $numGWs, $startGW = 1): array
+    public function getEntryGWsData($entryId, $numberOfGw, $startGW = 1): array
     {
 
         $gwData = [];
-        for ($i = $startGW; $i <= $numGWs; $i++) {
+        for ($i = $startGW; $i <= $numberOfGw; $i++) {
             $url = $this->baseUrl . "entry/" . $entryId . "/event/" . $i . "/picks/";
             $response = $this->makeRequest($url);
             $gwData[] = json_decode($response, true);
