@@ -1,7 +1,7 @@
 {
     "name": "footynext/fpl",
     "type": "library",
-    "description": "Get Fantasy Premier League Data",
+    "description": "PHP Library To Get Fantasy Premier League Data",
     "keywords": ["sports", "fantasy", "fpl", "footbal","football start", "football statistics","English Premier League","EPL"],
     "homepage": "https://footynext.com",
     "license": "MIT",
@@ -12,5 +12,10 @@
         "homepage": "http://footynext.com",
         "role": "Developer"
       }
-    ]
+      
+    ],
+    "require": {
+        "php": ">=8.2",
+        "another-vendor/package": "1.*"
+    }
   }
