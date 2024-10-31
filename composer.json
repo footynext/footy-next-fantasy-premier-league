@@ -1,0 +1,16 @@
+{
+    "name": "footynext/fpl",
+    "type": "library",
+    "description": "Get Fantasy Premier League Data",
+    "keywords": ["sports", "fantasy", "fpl", "footbal","football start", "football statistics","English Premier League","EPL"],
+    "homepage": "https://footynext.com",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Jordi Boggiano",
+        "email": "j.boggiano@seld.be",
+        "homepage": "http://footynext.com",
+        "role": "Developer"
+      }
+    ]
+  }
