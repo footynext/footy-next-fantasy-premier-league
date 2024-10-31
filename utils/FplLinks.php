@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FootyNext\FplUtils\Links;
+namespace FootyNext\Fpl\Utils;
 
 class FplLinks
 {

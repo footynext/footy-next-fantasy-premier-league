@@ -18,7 +18,11 @@
         "php": ">=8.2"
     },
     "autoload": {
-        "psr-4": { "FootyNext\\Components\\Fpl\\": "" }
+        "psr-4": { 
+            "FootyNext\\Fpl\\App\\": "",
+            "FootyNext\\Fpl\\Utils": "utils"
+        
+        }
     },
     "minimum-stability": "dev"
   }
